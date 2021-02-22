@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000 !important;
+}
+@font-face {
+  font-family: a-FuturaRoundDemi;
+  src: url(font/6855.ttf);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.company {
+  margin-left: 10px;
+  font-family: a-FuturaRoundDemi;
+  font-size: 32px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
+  font-family: a-FuturaRoundDemi;
+}
