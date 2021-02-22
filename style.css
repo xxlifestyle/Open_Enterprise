@@ -1,7 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
 body,
 html {
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9;
 }
 a {
   text-decoration: none;
@@ -11,11 +13,17 @@ a {
   font-family: a-FuturaRoundDemi;
   src: url(font/6855.ttf);
 }
+@font-face {
+  font-family: Proxima-Nova-Rg;
+  src: url(font/Proxima_Nova.ttf);
+}
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -35,6 +43,55 @@ nav {
   justify-content: space-around;
   align-items: center;
   width: 50%;
+  font-weight: 500;
   font-size: 20px;
+  font-style: normal;
   font-family: a-FuturaRoundDemi;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+.main-page-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.main-page-title {
+  margin-top: 150px;
+  margin-left: 40px;
+  width: 608px;
+  height: 160px;
+  order: -1;
+}
+.main-title {
+  font-family: "Bely";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 80px;
+}
+.title-text {
+  font-family: Proxima_Nova_Rg;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+.svg1 {
+  position: absolute;
+  right: 5%;
+  z-index: 2;
+}
+.img-illu {
+  position: relative;
+}
+
+.request {
+  padding: 20px 25px;
+  border-radius: 10%;
+  border-color: transparent;
+  background-color: #71a894;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
 }
