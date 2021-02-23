@@ -1,4 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+@font-face {
+  font-family: a-FuturaRoundDemi;
+  src: url(font/6855.ttf);
+}
+@font-face {
+  font-family: Proxima-Nova-Rg;
+  src: url(font/Proxima_Nova.ttf);
+}
 body,
 html {
   margin: 0;
@@ -9,14 +17,7 @@ a {
   text-decoration: none;
   color: #000 !important;
 }
-@font-face {
-  font-family: a-FuturaRoundDemi;
-  src: url(font/6855.ttf);
-}
-@font-face {
-  font-family: Proxima-Nova-Rg;
-  src: url(font/Proxima_Nova.ttf);
-}
+
 header {
   display: flex;
   flex-direction: row;
@@ -94,4 +95,47 @@ nav {
   color: white;
   font-weight: bold;
   margin-top: 20px;
+}
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.second-page-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 340px;
+  margin-top: 2%;
+}
+.features {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.features h3 {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 0px;
+}
+
+.features p {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
 }
